@@ -1,0 +1,208 @@
+.food-div{
+
+    border: 1px solid gray;
+    width: 400px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+
+}
+
+.food-div > h3{
+
+    font-size: 30px;
+    font-weight: 100;
+    
+}
+
+.food-div>p {
+
+    font-size: 13px;
+    font-weight: 100;
+    color: gray;
+    margin-top: -20px;
+   
+}
+.newfood-form{
+
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    margin-top:20px
+}
+.newfood-form > .form-control > input{
+
+
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    background-color:rgb(230, 230, 230);
+    margin-top:10px;
+    text-align: center;
+    font-weight:500;
+        font-family: 'Poppins',
+        sans-serif;
+}
+
+.newfood-form>.form-control>input:focus {
+
+outline: none;
+
+}
+
+.newfood-form>.form-control{
+
+    margin-top: 20px;
+    text-align: center;
+}
+
+#category{
+
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width:180px;
+    margin-top:10px;
+    text-align:center
+}
+
+#category:focus{
+
+
+    outline: none;
+}
+
+#discounts{
+
+    width:50px;
+ 
+}
+
+.add-btn{
+
+    margin-left:0px ;
+    margin-top: 30px;
+    padding:10px 50px;
+    width:400px;
+    border-radius: 5px;
+    border:none;
+    font-weight: 600;
+    font-size: 15px;
+    background-color:rgb(221, 142, 37);
+    color:white;
+    cursor: pointer;
+    transition:all 0.3s
+}
+
+.add-btn:hover{
+
+    background-color:orange
+}
+
+.goback-btn{
+
+    cursor: pointer;
+}
+#category > option{ 
+
+    padding: 50px;
+}
+
+
+.food-image-div{
+
+   border-radius: 50%;
+   position: relative;
+
+  
+}
+
+.food-image-div > img{
+
+    width:150px;
+    border-radius: 50%;
+    height: 150px;
+}
+
+.image-icon{
+    position:absolute;
+    top:70%;
+    left:65%;
+    font-size:30px;
+    cursor: pointer;
+}
+.image-icon-errors{
+    position:absolute;
+    top:70%;
+    left:65%;
+    font-size:30px;
+    cursor: pointer;
+}
+
+#food-desc {
+
+
+    padding: 5px;
+    max-height: 100px;
+    max-width:180px;
+    min-height: 100px;
+    min-width:180px;
+    border-radius: 5px;
+    border: none;
+    background-color:rgb(230, 230, 230);
+    font-family: 'Poppins',
+    sans-serif;
+    font-weight: 500;
+    margin-top: 10px; 
+    font-size: 12px; 
+
+}
+
+#food-desc:focus{
+
+    outline: none
+}
+@media screen and (max-width:414px) {
+
+    .newfood-form{
+
+        grid-template-columns: 1fr;
+        
+    }
+
+    .food-div{
+
+        border:none;
+        text-align: center;
+        margin-left: 20px;
+        margin-top:150px;
+        margin-left: 35px;
+       
+    }
+
+    .goback-btn{
+
+        margin-right:  200px; 
+        cursor: pointer;  
+      
+    }
+    .newfood-form > .form-control > input{
+
+
+        margin-left:10px;
+    }
+
+    #category{
+        margin-left: 10px;
+    }
+
+    .image-icon{
+
+        top:31.5%;
+        left: 58%;
+
+    }
+    
+}

@@ -1,0 +1,133 @@
+.success-div{
+
+
+    width:1000px;
+    position: absolute;
+    left:50%;
+    transform: translate(-50%);
+    top:9%;
+
+
+
+}
+.buttons-div{
+margin-left: -10px;
+    margin-top: 20px;
+    
+}
+.btn{
+
+    margin-right:10px ;
+}
+
+
+.bill{
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+  
+}
+
+.item{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+.item-last{
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    font-weight: 600;
+
+}
+
+.dash{
+
+    margin: 0px 10px;
+}
+
+.x{
+
+    margin: 0px 10px;
+}
+
+.cals{
+
+    display:flex;
+margin-top: 20px;
+    font-weight: 600;
+    
+}
+.col{
+
+    margin: 0px 30px;
+}
+
+.discounts-items{
+
+    display:flex;
+    flex-direction: column;
+    font-weight: 600;
+    margin-top: 10px;
+  
+}
+
+.head-dis{
+
+    text-decoration: underline;
+} 
+
+.dis-items{
+
+    display:flex;
+  
+}
+
+.item-dis{
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+
+}
+
+.col-dis{
+
+    margin:0px 5px;
+}
+
+.distot{
+
+    margin-left: 5px;
+}
+.last{
+
+    border-bottom: 1px solid black;
+}
+
+.fulldiscount{
+    display:flex;
+}
+.new-col{
+    margin: 13px 15px;
+}
+
+.doubleline{
+
+    border-bottom: 1px solid black;
+    border-style: double;
+    
+}
+
+.end{
+
+    margin-top: 20px;
+}
