@@ -103,7 +103,7 @@ const Login = () => {
             <p className='date'>Since 1902</p>
 
             <div className='content'>
-                <h3>Admin Panel Login</h3>
+                <h3>Login</h3>
 
                 <div className='errors'>
 
